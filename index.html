@@ -79,7 +79,7 @@
     </svg>
     <form method="post">
     <label>Name:
-     <input name="" autocomplete="">
+     <input>
     </label>
     <button>Done</button>
       <label>Choose a color: </label>
@@ -100,8 +100,8 @@
         <legend>Choose your favorite Avenger</legend>
         <input type="radio" id="Thor" name="Avenger">
         <label for="Thor">Thor</label><br/>
-        <input type="radio" id="Iron Man" name="Avenger">
-        <label for="Iron Man">Iron Man</label><br/>
+        <input type="radio" id="IronMan" name="Avenger">
+        <label for="IronMan">Iron Man</label><br/>
         <input type="radio" id="Hulk" name="Avenger">
         <label for="Hulk">Hulk</label><br/>
       </fieldset>
@@ -109,7 +109,7 @@
         There once was a man from Sugondese.
       </textarea>
       <label for="game-choice">Choose a game:</label>
-      <input list="games" ="game-choice" name="game-choice" />
+      <input list="games" id="game-choice" name="game-choice" />
       <datalist id="ice-cream-flavors">
         <option value="Among Us">
         <option value="Fortnite">
@@ -122,13 +122,9 @@
             <th colspan="2">Me</th>
         </thead>
         <tbody>
-          <colgroup>
-            <col class="Attribute">
-            <col class="Specification">
-          </colgroup>
           <tr>
-            <td scope="col">Height</td>
-            <td scope="col">5'9"</td>
+            <td>Height</td>
+            <td>5'9"</td>
           </tr>
         </tbody>
       </table>
