@@ -9,9 +9,9 @@
   <body>
     <nav>
       <ul>
-        <li><a href="google.com">Google</a></li>
-        <li><a href="canvas.ucsd.edu">Canvas</a></li>
-        <li><a href="tritonlink.ucsd.edu">Tritonlink</a></li>
+        <li><a href="https://www.google.com">Google</a></li>
+        <li><a href="https://canvas.ucsd.edu">Canvas</a></li>
+        <li><a href="https://tritonlink.ucsd.edu">Tritonlink</a></li>
       </ul>
     </nav>
     <header>
@@ -44,7 +44,7 @@
         <li>Better luck next year</li>
       </ol>
       <figure>
-        <img src="./monkeycookfood.jpg" alt="Monkey cooking food">
+        <img src="./monkeycookfood.jpg" alt="Monkey cooking food" width=300>
         <figcaption>Me cooking dinner</figcaption>
       </figure>
       <p><em>Lets emphasize this picture</em></p>
@@ -58,8 +58,93 @@
       <br>
       <br>
       The spanish inquisition
+      <picture> 
+        <img src="Spanish Inquisition".jpg alt="" />
+      </picture>
     </p>
-      
+    <iframe src="https://www.w3schools.com/html/html_iframe.asp" title="iframehtml"/>
+    <figure>
+    <figcaption>Listen to the T-Rex:</figcaption>
+    <audio
+        controls
+        src="rickAstley.mp3">
+            Sorry, you can't hear this
+    </audio>
+    </figure>
+    <video controls width="250">
+      <source src="fakerryu1.mp4" type="video/mp4">
+        Sorry, you can't play this
+    </video>
+    <canvas width="200" height="200" style="border:5px solid #ff0000;"></canvas>
+    <svg viewbox="0 0 0 0" stroke="blue" fill="green">
+      <circle cx="100" cy="200" r="50" />
+    </svg>
+    <form method="post">
+    <label>Name:
+     <input name="" autocomplete="">
+    </label>
+    <button>Done</button>
+      <label>Choose a color: </label>
+      <select>
+        <optgroup label="Cool kids">
+          <option>Red</option>
+          <option>Green</option>
+          <option>Blue</option>
+         <optgroup label="Cooler kids">
+          <option>Black</option>
+          <option>White</option>
+          <option>Gold</option>
+        </optgroup>
+      </select>
+    </form>
+    <form>
+      <fieldset>
+        <legend>Choose your favorite Avenger</legend>
+        <input type="radio" id="Thor" name="Avenger">
+        <label for="Thor">Thor</label><br/>
+        <input type="radio" id="Iron Man" name="Avenger">
+        <label for="Iron Man">Iron Man</label><br/>
+        <input type="radio" id="Hulk" name="Avenger">
+        <label for="Hulk">Hulk</label><br/>
+      </fieldset>
+      <textarea id="story" name="story" rows="3" cols="35">
+        There once was a man from Sugondese.
+      </textarea>
+      <label for="game-choice">Choose a game:</label>
+      <input list="games" ="game-choice" name="game-choice" />
+      <datalist id="ice-cream-flavors">
+        <option value="Among Us">
+        <option value="Fortnite">
+        <option value="League of Legends">
+      </datalist>
+      <table>
+        <caption>Facts about me</caption>
+        <thead>
+          <tr>
+            <th colspan="2">Me</th>
+        </thead>
+        <tbody>
+          <colgroup>
+            <col class="Attribute">
+            <col class="Specification">
+          </colgroup>
+          <tr>
+            <td scope="col">Height</td>
+            <td scope="col">5'9"</td>
+          </tr>
+        </tbody>
+      </table>
+      <details>
+        <summary>Click Me</summary>
+        Here read some details
+      </details>
+      <button type="button">
+       Click me
+      </button>
+      <template>
+        <h1>Template</h1>
+      </template>
+</form>
     <footer>
       <p>Unfortunately, footer gets no heading</p>
     </footer>
