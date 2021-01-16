@@ -138,21 +138,23 @@
       <template>
         <h1>Template</h1>
       </template>
-      <table>
-        <colgroup>
-          <col>
-          <col span="1" class="Me">
-          <col span="1" class="Notme">
-        </colgroup>
-        <tr>
-          <th scope="col">Brandon</th>
-          <th scope="col">NotBrandon</th>
-        </tr>
-        <tr>
-          <td>Cool</td>
-          <td>NotAsCool</td>
-        </tr>
-      </table>
+      <div>
+        <table>
+          <caption>Cool and Uncool people</caption>
+          <colgroup>
+            <col class="me">
+            <col class="notme">
+          </colgroup>
+          <tr>
+            <th scope="col">Brandon</th>
+            <th scope="col">NotBrandon</th>
+          </tr>
+          <tr>
+            <td>Cool</td>
+            <td>NotAsCool</td>
+          </tr>
+        </table>
+      </div>
       <input type="button" value="Press me"> 
       <div>
       <input type="checkbox" id="cool" name="cool">
