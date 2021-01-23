@@ -94,3 +94,16 @@ p.intro {
 #marginauto {
   margin: auto;
 }
+
+#paddinglong {
+  border: 1px solid grey;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+
+#paddingshort {
+  border: 1px dotted black;
+  padding: 20px 20px 20px 20px;
+}
