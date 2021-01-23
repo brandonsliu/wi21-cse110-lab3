@@ -1,0 +1,49 @@
+.center {
+  text-align: center;
+  color: blue;
+}
+
+#parared {
+  text-align: left;
+  color: red;
+}
+
+* {
+  font-family: 'Imbue', serif;
+}
+
+p {
+  text-align: right;
+}
+
+a[target="yellow"] {
+  background-color: yellow;
+}
+
+a:hover {
+  color: #FF00FF;
+}
+
+div > p {
+  background-color: yellow;
+}
+
+div p {
+  background-color: grey;
+}
+
+div ~ p {
+  color: red;
+}
+
+div + p {
+  background-color: red;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+p.intro {
+  background-color: yellow;
+}
