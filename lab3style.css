@@ -116,3 +116,11 @@ p.intro {
 #text {
   text-decoration: line-through;
 }
+
+li {
+  display: inline;
+}
+
+img {
+  display: block;
+}
