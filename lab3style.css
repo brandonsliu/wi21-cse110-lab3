@@ -37,7 +37,7 @@ div p {
 }
 
 p ~ ul {
-  color: red;
+  background-color: red;
 }
 
 div + p {
@@ -79,12 +79,13 @@ title.intro {
 
 #boxmodel {
   width: 300px;
-  border: 15px black;
+  border: 15px blue;
   padding: 20px;
   margin: 50px;
 }
 
 #marginlong {
+  border: 2px red;
   margin-top: 50px;
   margin-bottom: 100px;
   margin-right: 20px;
@@ -92,6 +93,7 @@ title.intro {
 }
 
 #marginshort {
+  border: 2px red;
   margin: 50px 20px 50px 20px;
 }
 
