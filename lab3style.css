@@ -47,3 +47,10 @@ h1, h2 {
 p.intro {
   background-color: yellow;
 }
+
+#border {
+  border-style: solid;
+  border-width: medium;
+  border-color: green;
+  border-radius: 10px;
+}
