@@ -126,3 +126,16 @@ img {
   width: 30%;
   margin: auto;
 }
+
+#positionrelative {
+  position: relative;
+  left: 33px;
+  border: 1px dashed green;
+}
+
+#positionsticky {
+  position: sticky;
+  top: 0;
+  background-color: yellow;
+  border: 3px solid black;
+}
