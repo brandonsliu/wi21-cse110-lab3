@@ -1,11 +1,11 @@
 .center {
   text-align: center;
-  color: blue;
+  color: rgb( 42, 00, 69);
 }
 
-#parared {
+#paratomato {
   text-align: left;
-  color: red;
+  color: hsl(9, 100%, 64%, 0.5);
 }
 
 * {
