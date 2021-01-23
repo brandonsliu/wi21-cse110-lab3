@@ -107,3 +107,8 @@ p.intro {
   border: 1px dotted black;
   padding: 20px 20px 20px 20px;
 }
+
+#widthheight {
+  height: 300px;
+  width: auto;
+}
