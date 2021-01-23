@@ -163,17 +163,3 @@ img {
   font-size: 40;
 }
 
-/*.grid-container {
-  display: grid;
-  grid-template-column: auto auto auto auto;
-  border: 10px solid blue;
-  grid-gap: 1px;
-}
-
-.grid-container > div {
-  background-color: tomato;
-  text-align: center;
-  padding: 20px 0;
-  border: 1px solid;
-}*/
-
