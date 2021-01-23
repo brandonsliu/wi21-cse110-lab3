@@ -12,8 +12,7 @@
         }
       }
     </style>
-    /* This is a comment */
-    <title style="color:green;text-align:center;" class="intro">This is a title.</title>
+    <title style="color:red;text-align:center;" class="intro">This is a title.</title>
     <meta charset="UTF-8">
     <meta name="author" content="Brandon Liu">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">  
@@ -35,6 +34,7 @@
       <aside>
         <p>An aside is "a portion of a document whose content is only indirectly related to the document's main content"</p>
       </aside>
+      <p id="positionsticky">Position Sticky</p>
       <p>There is a div</p>
       <div>
         <p>here.</p>
@@ -81,11 +81,11 @@
             Sorry, you can't hear this
     </audio>
     </figure>
-    <video controls width="250">
+    <video controls id="widthheight">
       <source src="fakerryu1.mp4" type="video/mp4">
         Sorry, you can't play this
     </video>
-    <canvas width="200" height="200" style="border:5px solid #ff0000;"></canvas>
+    <canvas width=250px style="border:5px solid #ff0000;"></canvas>
     <svg viewbox="0 0 0 0" stroke="blue" fill="green">
       <circle cx="100" cy="200" r="50" />
     </svg>
@@ -141,7 +141,7 @@
         </tbody>
       </table>
       <details>
-        <summary id="widthheight">Click Me</summary>
+        <summary>Click Me</summary>
         Here read some details
       </details>
       <button type="button">
@@ -202,7 +202,6 @@
   <p id="paddingshort">Padding Short</p>
   <p id="text">Cross me out please"</p>
   <p id="positionrelative">Position relative</p>
-  <p id="positionsticky">Position Sticky</p>
   <div class="flex-container">
     <div>1</div>
     <div>2</div>
