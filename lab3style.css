@@ -12,7 +12,7 @@
   font-family: 'Imbue', serif;
 }
 
-p {
+div {
   text-align: right;
 }
 
@@ -29,14 +29,14 @@ a:active {
 }
 
 div > p {
-  background-color: yellow;
+  background-color: grey;
 }
 
 div p {
   background-color: grey;
 }
 
-div ~ p {
+p ~ ul {
   color: red;
 }
 
@@ -48,7 +48,7 @@ h1, h2 {
   text-align: center;
 }
 
-p.intro {
+title.intro {
   background-color: yellow;
 }
 
