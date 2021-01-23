@@ -24,6 +24,10 @@ a:hover {
   color: #FF00FF;
 }
 
+a:active {
+  color: #0000FF;
+}
+
 div > p {
   background-color: yellow;
 }
