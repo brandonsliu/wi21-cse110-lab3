@@ -72,3 +72,10 @@ p.intro {
   border-style: dotted;
   border-width: 5px;
 }
+
+#boxmodel {
+  width: 300px;
+  border: 15px black;
+  padding: 20px;
+  margin: 50px;
+}
