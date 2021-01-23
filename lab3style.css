@@ -112,3 +112,7 @@ p.intro {
   height: 300px;
   width: auto;
 }
+
+#text {
+  text-decoration: line-through;
+}
