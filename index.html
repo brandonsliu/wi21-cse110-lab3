@@ -13,7 +13,7 @@
       }
     </style>
     /* This is a comment */
-    <title style="color:green;text-align:center;">This is a title.</title>
+    <title style="color:green;text-align:center;" class="intro">This is a title.</title>
     <meta charset="UTF-8">
     <meta name="author" content="Brandon Liu">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">  
@@ -21,7 +21,7 @@
   <body>
     <nav>
       <ul>
-        <li><a href="https://www.google.com">Google</a></li>
+        <li><a target="yellow" href="https://www.google.com">Google</a></li>
         <li><a href="https://canvas.ucsd.edu">Canvas</a></li>
         <li><a href="https://tritonlink.ucsd.edu">Tritonlink</a></li>
       </ul>
@@ -31,7 +31,7 @@
     </header>
     <main>
       <h1>This is h1 inside main.</h1>
-      <p>This is p.</p>
+      <p id="paratomato">This is p.</p>
       <aside>
         <p>An aside is "a portion of a document whose content is only indirectly related to the document's main content"</p>
       </aside>
@@ -57,7 +57,7 @@
       </ol>
       <figure>
         <img src="./monkeycookfood.jpg" alt="Monkey cooking food" width=300>
-        <figcaption>Me cooking dinner</figcaption>
+        <figcaption class="center">Me cooking dinner</figcaption>
       </figure>
       <p><em>Lets emphasize this picture</em></p>
     </section>
@@ -181,4 +181,21 @@
       <p>Unfortunately, footer gets no heading</p>
     </footer>
   </body>
+  <div>
+    <p>This should have a grey background</p>
+  </div>
+  <p>List</p>
+  <ul>
+    <li>Should</li>
+    <li>Be</li>
+    <li>Red</li>
+  </ul>
+  <p id="border">This should have a border</p>
+  <p id="unit1">Big Unit</p>
+  <p id="unit2">Medium Unit</p>
+  <p id="unit3">Small Unit</p>
+  <p id="boxmodel">This should have a boxmodel</p>
+  <p id="marginlong">Margin Long</p>
+  <p id="marginshort">Margin Short</p>
+  <p id="marginauto">Margin Auto</p>
 </html>
