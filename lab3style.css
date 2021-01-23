@@ -2,7 +2,7 @@
   text-align: center;
   color: rgb( 42, 00, 69);
 }
-
+/* Heres a comment */
 #paratomato {
   text-align: left;
   color: hsl(9, 100%, 64%, 0.5);
@@ -79,7 +79,7 @@ title.intro {
 
 #boxmodel {
   width: 300px;
-  border: 15px blue;
+  border: 15px red;
   padding: 20px;
   margin: 50px;
 }
@@ -140,6 +140,7 @@ img {
 }
 
 #positionsticky {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   background-color: yellow;
@@ -150,6 +151,7 @@ img {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  background-color: Brown
 }
 
 .flex-container > div {
@@ -172,3 +174,5 @@ img {
   background-color: tomato;
   text-align: center;
   padding: 20px 0;
+  border: 1px solid;
+}
