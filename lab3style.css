@@ -143,3 +143,18 @@ img {
   background-color: yellow;
   border: 3px solid black;
 }
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flex-container > div {
+  background-color: red;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 40;
+}
