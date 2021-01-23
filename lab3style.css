@@ -54,3 +54,21 @@ p.intro {
   border-color: green;
   border-radius: 10px;
 }
+
+#unit1 {
+  font-size: 40vw;
+  border-style: dotted;
+  border-width: 15px;
+}
+
+#unit2 {
+  font-size: 15vh;
+  border-style: double;
+  border-radius: 15px;
+}
+
+#unit3 {
+  font-size: 10vmax;
+  border-style: dotted;
+  border-width: 5px;
+}
