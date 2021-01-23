@@ -79,3 +79,18 @@ p.intro {
   padding: 20px;
   margin: 50px;
 }
+
+#marginlong {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#marginshort {
+  margin: 50px 20px 50px 20px;
+}
+
+#marginauto {
+  margin: auto;
+}
